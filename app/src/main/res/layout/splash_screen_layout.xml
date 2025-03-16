@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen_back"
+    tools:context=".SplashScreen">
+
+
+    <LinearLayout
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Logo"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:background="@drawable/plata_farm_logo"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/black"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="Planta"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="Farm"
+                android:textAlignment="center"
+                android:textColor="@color/dark"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/lexend"
+        android:shadowColor="@color/dark"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:text="PlantaFarm v1.0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

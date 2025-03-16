@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:background="@color/lt_green"
+    android:layout_height="match_parent"
+
+    tools:context=".LegalNotice">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/layout_background"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/custom_background"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/alexandria_semibold"
+                android:text="Your use of the AI-Powered PlantaFarm Application"
+                android:textColor="@color/drk_green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_1"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_2"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_3"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/alexandria_semibold"
+                android:text="The AI-Powered PlantaFarm application includes:"
+                android:textColor="@color/drk_green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_4"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_5"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_6"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_7"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_8"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_9"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/alexandria_semibold"
+                android:text="Your User Account"
+                android:textColor="@color/drk_green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_10"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_11"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_12"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_13"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/alexandria_semibold"
+                android:text="Privacy and Data Protection"
+                android:textColor="@color/drk_green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_14"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_15"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_16"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/alexandria_semibold"
+                android:text="Disclaimer"
+                android:textColor="@color/drk_green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_17"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_18"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/alexandria_semibold"
+                android:text="Limitations of Liability"
+                android:textColor="@color/drk_green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_19"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/lexend"
+                android:shadowColor="@color/white"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/legal_notice_20"
+                android:textColor="@color/black"
+                android:layout_marginBottom="80dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/back_icon_white"
+                app:tint="@color/white" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/alexandria_semibold"
+                android:shadowColor="@color/black"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:text="Legal Notices"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

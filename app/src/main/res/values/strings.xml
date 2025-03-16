@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">PlantaFarm</string>
+    <string name="legal_notice_1">AI-Powered PlantaFarm is a smart mobile application developed to assist farmers in optimizing planting and
+        harvesting schedules through AI-driven insights and IoT-enabled sensors. The application is a decision support tool designed for
+        efficient farming, focusing on seasonal vegetable lifecycle management. It leverages image recognition, artificial intelligence, and
+        real-time data collection from IoT sensors to help farmers make informed decisions about their crops.</string>
+    <string name="legal_notice_2">The AI-Powered PlantaFarm app allows users to upload photos of their crops for analysis. Using AI-powered visual
+        recognition, the app identifies plant diseases, pest infestations, and nutrient deficiencies. IoT-enabled sensors monitor key soil conditions
+        such as moisture levels, pH balance, temperature, and nutrient content. The combination of these technologies helps farmers predict the ideal
+        planting and harvesting windows, improving yield and reducing crop losses.</string>
+    <string name="legal_notice_3">The application also features a Seasonal Vegetable Database with comprehensive information on plant diseases,
+        pests, and best farming practices. Farmers can access current and forecasted weather data, including temperature, precipitation,
+        and wind conditions, to plan their farming activities more effectively.</string>
+    <string name="legal_notice_4">Real-time AI-powered plant health analysis: Farmers can upload images of their crops, and the AI will diagnose
+        potential issues, suggest solutions, and recommend best practices.</string>
+    <string name="legal_notice_5">IoT-enabled soil monitoring: Sensors collect real-time data on soil moisture,
+        temperature, and pH, helping farmers optimize irrigation and fertilization.</string>
+    <string name="legal_notice_6">Farming calendar: Users receive tailored planting and harvesting recommendations based on AI analysis and environmental
+        conditions.</string>
+    <string name="legal_notice_7">Weather forecasting integration: The app provides current and predictive weather data to support better decision-making.</string>
+    <string name="legal_notice_8">User-friendly interface: Designed to be accessible for farmers of all experience levels, with intuitive navigation and easy-to-understand recommendations.</string>
+    <string name="legal_notice_9">SMS and notification system: Alerts farmers about critical changes in weather conditions, soil health, and pest risks.</string>
+    <string name="legal_notice_10">You have the option to register and create a user account on the AI-Powered PlantaFarm application ("Account").
+        Your account allows you to access various features and services within the app, including but not limited to receiving AI-driven crop analysis,
+        accessing personalized planting and harvesting recommendations, viewing weather forecasts, and managing IoT sensor data for soil monitoring.</string>
+    <string name="legal_notice_11">Your AI-Powered PlantaFarm account is secured with a unique username and password that you create when signing up.
+        You are responsible for keeping your login credentials confidential and should not share them with any third party. Any activity occurring under
+        your account will be your responsibility. To protect your account, you should take all necessary security precautions and inform us immediately
+        if you suspect unauthorized access or misuse of your password.</string>
+    <string name="legal_notice_12">You must ensure that the information provided during the account registration process is complete, accurate,
+        and up-to-date. The use of another users account credentials to access services is strictly prohibited. If any information provided is found
+        to be false, inaccurate, outdated, or incomplete, or if AI-Powered PlantaFarm has reason to believe that the information is not valid,
+        we reserve the right to suspend or terminate your account and restrict access to the apps features.</string>
+    <string name="legal_notice_13">By creating an account, you agree to comply with the security measures and usage policies of AI-Powered PlantaFarm,
+        ensuring a safe and efficient farming experience powered by AI and IoT technology.</string>
+    <string name="legal_notice_14">Please review our Privacy Policy, which governs your use, access, and visits to the AI-Powered PlantaFarm application.
+        The personal information and data you provide while using the application and your account will be treated as confidential and in accordance
+        with our Privacy Policy and applicable laws and regulations.</string>
+    <string name="legal_notice_15">By using AI-Powered PlantaFarm, you consent to the collection and processing of your data for purposes such
+        as AI-driven crop analysis, IoT sensor monitoring, weather forecasting, and personalized planting recommendations. If you do not agree
+        to the terms outlined in the Privacy Policy, please do not use the application.</string>
+    <string name="legal_notice_16">AI-Powered PlantaFarm may also transfer user data to third parties if required by law or upon request
+        from governmental, judicial, regulatory, or statutory agencies or authorities.</string>
+    <string name="legal_notice_17">The information and recommendations provided by AI-Powered PlantaFarm are for general guidance only
+        and should not replace professional agricultural advice. You assume full responsibility for how you use the information from the app.
+        We are not liable for any losses, damages, or costs resulting from its use.</string>
+    <string name="legal_notice_18">While we strive for accuracy, all data, predictions, and analyses are provided "as-is"
+        without warranties of any kind. We do not facilitate the sale of goods, services, or partnerships between users.</string>
+    <string name="legal_notice_19">AI-Powered PlantaFarm is not responsible for any indirect, incidental, special, or consequential losses,
+        including but not limited to lost profits, revenue, contracts, anticipated savings, data, or goodwill arising from the use of the
+        application. While we strive to provide accurate and reliable information for smart farming, we do not guarantee the absolute accuracy,
+        completeness, or reliability of the data, predictions, or recommendations provided by the app.</string>
+    <string name="legal_notice_20">To the fullest extent permitted by law, you waive, release, discharge, and agree to indemnify and hold harmless
+        AI-Powered PlantaFarm and its developers from any claims, actions, losses, damages, or liabilities resulting from your use or inability
+        to use the application. Your use of the app and its features, including IoT-based monitoring and AI-powered predictions, is at your own risk.</string>
+
+</resources>

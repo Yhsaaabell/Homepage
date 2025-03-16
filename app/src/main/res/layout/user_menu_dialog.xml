@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/lt"
+        app:cardCornerRadius="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/green"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/plata_farm_logo" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/green"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35dp"
+                        android:fontFamily="@font/lexend"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="3"
+                        android:text="PlantaFarm User"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/lexend"
+                        android:text="plantafam@gmail.com"
+                        android:textColor="@color/white"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="3"
+                        android:textSize="13sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nav_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/profile_img"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:layout_gravity="center_vertical"
+                    android:text="My Profile"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/nav_calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/calendar_image"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:layout_gravity="center_vertical"
+                    android:text="Calendar"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/nav_soil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/soil_monitoring"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:layout_gravity="center_vertical"
+                    android:text="Soil Monitoring"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/nav_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/feedback_img"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:layout_gravity="center_vertical"
+                    android:text="Give Feedback"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/nav_recommend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/recommend_img"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:layout_gravity="center_vertical"
+                    android:text="Recommend PlantaFarm"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nav_legal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/legal_notice"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:layout_gravity="center_vertical"
+                    android:text="Legal Notices"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nav_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/start_img"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:text="QuickStart"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/nav_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/settings_img"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:layout_gravity="center_vertical"
+                    android:text="Settings"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                android:orientation="horizontal"/>
+
+            <LinearLayout
+                android:id="@+id/nav_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/logout"
+                    app:tint="@color/green" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/lexend"
+                    android:layout_gravity="center_vertical"
+                    android:text="Logout"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

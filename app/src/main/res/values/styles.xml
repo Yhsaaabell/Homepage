@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomCalendarHeader">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item> <!-- Change to your desired color -->
+        <item name="android:fontFamily">@font/lexend</item>
+    </style>
+
+    <style name="CustomWeekDayLabel">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/green</item> <!-- Change to your desired color -->
+        <item name="android:fontFamily">@font/lexend</item>
+    </style>
+</resources>

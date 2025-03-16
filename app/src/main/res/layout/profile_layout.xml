@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:background="@color/lt_green"
+    android:layout_height="match_parent"
+
+    tools:context=".SelectCrop">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/layout_background"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/custom_background"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/plata_farm_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/alexandria_semibold"
+                            android:gravity="end"
+                            android:paddingEnd="15dp"
+                            android:shadowColor="@color/white"
+                            android:shadowDx="5"
+                            android:shadowDy="3"
+                            android:shadowRadius="2"
+                            android:text="Name :"
+                            android:textColor="@color/drk_green"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/alexandria_semibold"
+                            android:shadowColor="@color/white"
+                            android:shadowDx="5"
+                            android:shadowDy="3"
+                            android:shadowRadius="2"
+                            android:text="Username :"
+                            android:gravity="end"
+                            android:paddingEnd="15dp"
+                            android:textColor="@color/drk_green"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alexandria_semibold"
+                            android:shadowColor="@color/white"
+                            android:shadowDx="5"
+                            android:shadowDy="3"
+                            android:shadowRadius="2"
+                            android:layout_gravity="center_vertical"
+                            android:text="Email :"
+                            android:gravity="end"
+                            android:paddingEnd="15dp"
+                            android:textColor="@color/drk_green"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alexandria_semibold"
+                            android:shadowColor="@color/white"
+                            android:shadowDx="5"
+                            android:shadowDy="3"
+                            android:shadowRadius="2"
+                            android:layout_gravity="center_vertical"
+                            android:text="Contact :"
+                            android:gravity="end"
+                            android:paddingEnd="15dp"
+                            android:textColor="@color/drk_green"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alexandria_semibold"
+                            android:shadowColor="@color/white"
+                            android:shadowDx="5"
+                            android:shadowDy="3"
+                            android:shadowRadius="2"
+                            android:text="Planta Farm"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alexandria_semibold"
+                            android:shadowColor="@color/white"
+                            android:shadowDx="5"
+                            android:shadowDy="3"
+                            android:shadowRadius="2"
+                            android:text="sample user"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alexandria_semibold"
+                            android:shadowColor="@color/white"
+                            android:shadowDx="5"
+                            android:shadowDy="3"
+                            android:shadowRadius="2"
+                            android:text="plantafarm@gmail.com"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/alexandria_semibold"
+                            android:shadowColor="@color/white"
+                            android:shadowDx="5"
+                            android:shadowDy="3"
+                            android:shadowRadius="2"
+                            android:text="09353011512"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="150dp"
+                android:height="50dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/lexend"
+                android:textAllCaps="false"
+                android:text="Edit Profile"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:backgroundTint="@color/green"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/back_icon_white"
+                app:tint="@color/white" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/alexandria_semibold"
+                android:shadowColor="@color/black"
+                android:shadowDx="5"
+                android:shadowDy="3"
+                android:shadowRadius="2"
+                android:text="My Profile"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
